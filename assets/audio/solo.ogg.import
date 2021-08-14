@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/solo.ogg-0e37bdb52f2e2ecacc95376706a175ed.oggstr"
+
+[deps]
+
+source_file="res://assets/audio/solo.ogg"
+dest_files=[ "res://.import/solo.ogg-0e37bdb52f2e2ecacc95376706a175ed.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

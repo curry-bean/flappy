@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://TouchScreen.gd" type="Script" id=1]
+[ext_resource path="res://assets/textures/touchbutton.png" type="Texture" id=2]
+
+[node name="TouchScreen" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Flap" type="TouchScreenButton" parent="."]
+normal = ExtResource( 2 )
+[connection signal="pressed" from="Flap" to="." method="_on_Flap_pressed"]
